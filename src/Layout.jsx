@@ -5,9 +5,13 @@ const Layout = () => {
   return (
     <>
     <nav>
-        <ul className='flex gap-5'>
-            <Link to="/home">Home</Link>
-            <Link to="/about">About</Link>
+        <ul className='flex gap-15 border p-8 border-b-black'>
+            <li>
+                <Link to="/home">Home</Link>
+            </li>
+            <li>
+                <Link to="/about">About</Link>
+            </li>
         </ul>
     </nav>
     <Outlet/>
